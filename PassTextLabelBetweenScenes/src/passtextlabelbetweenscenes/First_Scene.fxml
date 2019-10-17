@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="passtextlabelbetweenscenes.First_SceneController">
+  <children>
+    <Button id="sceneSecond" fx:id="buttonEnter" layoutX="230.0" layoutY="184.0" mnemonicParsing="false" onAction="#passText" text="Enter" />
+    <Label layoutX="199.0" layoutY="46.0" prefHeight="59.0" text="You are at the First Scene" />
+    <TextField fx:id="textInput" alignment="CENTER" layoutX="199.0" layoutY="118.0" prefWidth="200.0" promptText="Enter Text" text="" />
+  </children>
+</AnchorPane>
